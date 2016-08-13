@@ -11,6 +11,6 @@ void setup()
 }
 
 void loop() {
-	irsend.sendNEC(0x20DF10EF, 32);
+	irsend.sendNEC(0x55AA609F, 32);
 	delay(3000);
 }
