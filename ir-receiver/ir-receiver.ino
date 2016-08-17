@@ -10,7 +10,7 @@ decode_results results;
 
 void setup()
 {
-	Serial.begin(9600);
+	Serial.begin(19200);
 	irrecv.enableIRIn();
 }
 
